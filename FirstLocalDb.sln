@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstLocalDb", "FirstLocalD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{6740A397-AACE-4C91-BC45-4B2C577F595B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LocalDB", "LocalDB", "{D60E1EDC-EBE8-4EE7-A07D-95616F688A00}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\SampleDb.ldf = ..\..\..\Downloads\SampleDb.ldf
+		..\..\..\Downloads\SampleDb.mdf = ..\..\..\Downloads\SampleDb.mdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
